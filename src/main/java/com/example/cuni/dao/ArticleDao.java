@@ -1,6 +1,7 @@
 package com.example.cuni.dao;
 
 import java.util.List;
+import java.util.Map;
 
 import org.apache.ibatis.annotations.Mapper;
 
@@ -19,5 +20,9 @@ public interface ArticleDao {
 	List<Article> getArticlesByBoardCode(String boardCode);
 
 	Board getBoardByBoardCode(String boardCode);
+
+	void write(Map<String, Object> param);
+
+	Board getBoard(int boardId);
 
 }

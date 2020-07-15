@@ -13,4 +13,6 @@
 	<div class="con">
 		<a href="/article/list?boardCode=notice">공지사항</a>
 		<a href="/article/list?boardCode=free">자유게시판</a>
+		<a href="/article/write?boardCode=notice">공지사항 작성</a>
+		<a href="/article/write?boardCode=free">자유게시판 작성</a>
 	</div>

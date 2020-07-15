@@ -18,4 +18,8 @@ public interface ArticleService {
 
 	Board getBoard(String boardCode);
 
+	Map<String, Object> write(Map<String, Object> param);
+
+	Board getBoard(int boardId);
+
 }
