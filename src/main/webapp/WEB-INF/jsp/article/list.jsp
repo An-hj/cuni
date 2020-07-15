@@ -27,7 +27,8 @@
 				<td>${article.id }</td>
 				<td><a href="./detail?id=${article.id }">${article.title }</a></td>
 				<td>${article.regDate }</td>
-				<td><a href="./delete?id=${article.id }">삭제</a></td>
+				<td><a href="./delete?id=${article.id }">삭제</a>
+				<a href="./modify?id=${article.id }">수정</a></td>
 			</tr>
 			</c:forEach>
 		</tbody>

@@ -25,4 +25,6 @@ public interface ArticleDao {
 
 	Board getBoard(int boardId);
 
+	void modify(Map<String, Object> param);
+
 }
