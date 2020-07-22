@@ -6,7 +6,7 @@
 	<select id="getMemberByLoginId" resultType="Member">
 		SELECT *
 		FROM member
-		WHERE id = #{loginId}
+		WHERE loginId = #{loginId}
 	</select>
 	
 	<insert id="join" useGeneratedKeys="true" keyProperty="id">
