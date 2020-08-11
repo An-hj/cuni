@@ -16,5 +16,11 @@
 		loginPw = #{loginPw},
 		name = #{name}
 	</insert>
+	 
+	<select id="getMemberById" resultType="Member">
+		SELECT *
+		FROM member
+		WHERE id = #{id}
+	</select>
 	
 </mapper>

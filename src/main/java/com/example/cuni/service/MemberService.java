@@ -10,4 +10,6 @@ public interface MemberService {
 
 	Member getMemberByLoginId(String loginId);
 
+	Member getMemberById(int id);
+
 }

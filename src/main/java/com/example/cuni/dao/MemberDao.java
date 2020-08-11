@@ -13,4 +13,6 @@ public interface MemberDao {
 
 	void join(Map<String, Object> param);
 
+	Member getMemberById(int id);
+
 }
